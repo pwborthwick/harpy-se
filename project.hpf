@@ -1,0 +1,197 @@
+name=oh-
+units=angstrom
+shell=closed
+charge=-1
+multiplicity=1
+tolerance=1e-6
+
+O   8 0.00000000  0.00000000 0.00000000000
+H   1 0.96400000  0.00000000 0.00000000000
+
+end
+#----------------------------------------------
+name=co2
+units=angstrom
+basis=slater
+shell=closed
+charge=0
+multiplicity=1
+tolerance=1e-6
+geometry={r:1,2}{r:1,3}{a:3,1,2}
+
+C1  6 0.00000000  0.00000000 0.00000000000
+O1  8 1.16200000  0.00000000 0.00000000000
+O2  8 -1.1620000  0.00000000 0.00000000000
+
+end
+#----------------------------------------------
+name=h2o
+units=angstrom
+basis=slater
+shell=closed
+charge=0
+multiplicity=1
+tolerance=1e-6
+geometry={r:1,2}{r:1,3}{a:3,1,2}
+
+O1  8 0.00000000  0.00000000 0.00000000000
+H1  1 0.96000000  0.00000000 0.00000000000
+H2  1 0.24000000  0.92700000 0.00000000000
+
+end
+#----------------------------------------------
+name=LiH
+matrix=c
+units=angstrom
+basis=slater
+geometry={r:1,2}
+shell=closed
+charge=0
+multiplicity=1
+tolerance=1e-6
+
+
+Li  3 0.00000000  0.00000000 0.00000000000
+H   1 1.57200000  0.00000000 0.00000000000
+
+end
+#----------------------------------------------
+name=h2
+matrix=c
+units=angstrom
+basis=slater
+shell=closed
+charge=0
+multiplicity=1
+tolerance=1e-6
+geometry={r:1,2}
+
+H1  1 0.00000000  0.00000000 0.00000000000
+H2  1 0.74600000  0.00000000 0.00000000000
+
+end
+#----------------------------------------------
+name=co
+units=angstrom
+shell=closed
+charge=0
+multiplicity=1
+tolerance=1e-6
+geometry={r:1,2}
+
+O1  8 0.00000000  0.00000000 0.00000000000
+C1  6 1.19600000  0.00000000 0.00000000000
+
+end
+#------------------------------------------------
+name=nh
+units=angstrom
+shell=open
+charge=0
+multiplicity=3
+geometry={r:1,2}
+
+N  7 0.000000  0.0000000  0.000000
+H  1 1.061000  0.0000000  0.000000
+
+end
+#-------------------------------------------------
+name=BeO
+units=angstrom
+shell=closed
+charge=0
+multiplicity=1
+geometry={r:1,2}
+
+O  8  0.0000  0.0000  0.0000
+Be 4  1.4740  0.0000  0.0000
+
+end
+#--------------------------------------------------
+name=LiF
+units=angstrom
+shell=closed
+charge=0
+multiplicity=1
+geometry={r:1,2}
+
+F  9  0.0000  0.0000  0.0000
+Li 3  2.1620  0.0000  0.0000
+
+end
+#---------------------------------------------------
+name=n2
+units=angstrom
+shell=closed
+charge=0
+multiplicity=1
+geometry={r:1,2}
+
+N1  7  0.0000  0.0000  0.0000
+N2  7  1.1470  0.0000  0.0000
+
+end
+#---------------------------------------------------
+name=BeF
+units=angstrom
+shell=open
+multiplicity=2
+charge=0
+geometry={r:1,2}
+
+F  9 0.0000  0.0000  0.0000
+Be 4 1.6710  0.0000  0.0000
+
+end
+#--------------------------------------------------
+name=b2
+units=angstrom
+shell=open
+multiplicity=3
+charge=0
+geometry={r:1,2}
+
+B1  5  0.0000  0.0000  0.0000
+B2  5  1.2780  0.0000  0.0000
+
+end
+#---------------------------------------------------
+name=o2+
+units=angstrom
+shell=open
+multiplicity=2
+charge=1
+geometry={r:1,2}
+
+O1  8  0.0000  0.0000  0.0000
+O2  8  1.0950  0.0000  0.0000
+
+end
+#---------------------------------------------------
+name=gaba+-
+units=angstrom
+shell=closed
+charge=0
+multiplicity=1
+damping={0.75,8}
+geometry={r:1,4}{a:1,4,2}
+
+O1  8  8.4375   0.5814   2.1731
+O2  8  9.7905  -1.1185   2.1655
+N1  7  9.3335   0.9319   7.0542
+C1  6  9.2725  -0.1316   2.7294
+C2  6  9.7152   0.1639   4.1521
+C3  6  8.9471  -0.6460   5.1607
+C4  6  9.4639  -0.4630   6.5881
+H1  1  9.3910   0.9810   7.9161
+H2  1  9.9891   1.4116   6.6935
+H3  1  8.5296   1.3159   6.8005
+H4  1  9.6661   1.1843   4.3401
+H5  1  0.6351  -0.2153   4.3401
+H6  1  8.9842  -1.5552   4.9514
+H7  1  7.9554  -0.4067   5.1348
+H8  1  0.4198  -0.6939   6.6018
+H9  1  8.9723  -0.9810   7.0908
+
+end
+#----------------------------------------------------
